@@ -3,6 +3,7 @@ module.exports = {
     title: `Ubaid Siddiqui | Developer`,
     description: `Ubaid Siddiqui is a frontend web and android developer based in India, who specializes in developing best performance websites and applications.`,
     author: `Ubaid`,
+    siteUrl: `https://ubaid.tech`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
