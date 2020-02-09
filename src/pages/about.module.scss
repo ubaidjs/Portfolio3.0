@@ -1,0 +1,25 @@
+.container {
+  margin-top: 70px;
+
+  h2 {
+    color: #536068;
+  }
+}
+
+.para {
+  margin-top: 30px;
+  line-height: 1.8;
+  letter-spacing: 1.2px;
+  word-spacing: 1.5px;
+  max-width: 700px;
+  & > p {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 25px;
+    margin-top: 20px;
+  }
+}

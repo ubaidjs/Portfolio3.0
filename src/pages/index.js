@@ -10,9 +10,8 @@ const IndexPage = () => (
     <SEO />
     <div className={style.container}>
       <div>
+        <p className={style.hello}>Hello,</p>
         <h1>
-          <span className={style.hello}>Hello,</span>{' '}
-          <br className={style.br} />
           <span className={style.im}>I'm</span> Ubaid Siddiqui
         </h1>
         <p className={style.desig}>Frontend Developer</p>

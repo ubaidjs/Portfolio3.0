@@ -1,0 +1,44 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  h2 {
+    color: #536068;
+    margin-bottom: 50px;
+  }
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attr {
+  color: #536068;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: inherit;
+  border: 1px solid #536068;
+  border-radius: 10px;
+}
+
+.social {
+  margin-top: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 25px;
+    margin-top: 20px;
+  }
+}
