@@ -40,5 +40,11 @@ module.exports = {
         icon: `src/images/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resovle: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-147969670-1`,
+      },
+    },
   ],
 }
